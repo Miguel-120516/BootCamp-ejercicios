@@ -1,0 +1,10 @@
+/* Establecer el color rojo para el primer elemento de cada lista */
+ul li:first-of-type,
+ol li:first-of-type {
+    color: red;
+}
+
+/* Establecer el tamaño de letra en 2rem para el primer elemento de la primera lista */
+ul li:first-of-type {
+    font-size: 2rem;
+}
